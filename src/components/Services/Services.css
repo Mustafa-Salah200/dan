@@ -1,0 +1,77 @@
+.services_content_container  {
+    background-color: var(--bg-color);
+    padding: 15px;
+}
+.services .top {
+  text-align: center;
+}
+.services .top h2 span {
+  color: var(--secondary-color);
+}
+.services .top .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.services .top .logos h2 {
+  color: var(--secondary-color);
+}
+.services .top img {
+  width: 100px;
+}
+.services .content {
+    max-width: var(--max-width);
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 40px;
+    
+}
+.services .content .title {
+    font-size: 50px;
+}
+.services .content div {
+    padding: 40px 20px;
+}
+.services .content button {
+    padding: 1rem 1.5rem;
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+    border: 3px solid transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.services .content button:hover {
+    outline: 3px solid var(--main-color);
+    border-color: #fff;
+}
+.services .content .service {
+    background-color: #fff;
+    border-radius: 30px;
+}
+.services .content .service h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.services .content .service img {
+    width: 30px;
+}
+.services .content p {
+    margin: 1rem 0;
+    
+}
+.services .content .service span {
+    cursor: pointer;
+    color: var(--main-color);
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .services_content_container  {
+        padding: 80px;
+    }
+}

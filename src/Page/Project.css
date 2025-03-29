@@ -1,0 +1,90 @@
+.project_page {
+  margin: 50px auto;
+  max-width: var(--max-width);
+  padding: 20px;
+}
+.project_page .top h1 {
+  margin: 20px 0;
+}
+.project_page .top h1 span {
+  color: var(--main-color);
+}
+.project_page .content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.project_page .box .image {
+  position: relative;
+  width: 100%;
+  height: 206px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+}
+.project_page .box .image span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 15px 16px 15px 27px;
+  border-top: 8px solid #fff;
+  border-radius: 15rem 0 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  border-left: 8px solid #fff;
+  background: linear-gradient(37deg, #03A9F4, #e33cff);
+}
+.project_page .box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.project_page .box .info {
+  padding: 15px 0;
+}
+
+.project_page .info h1 {
+  margin: 10px 0;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #3f51b5;
+}
+.project_page .info p {
+  color: #777;
+}
+.project_page .skills {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.project_page .skills span {
+  width: 82px;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 11px;
+}
+.project_page .skills .html {
+    color: red;
+    background-color: #ff572296;
+
+}
+.project_page .skills .css {
+    background-color: #2196f352;
+    color: #2196F3;
+}
+.project_page .skills .javascript {
+    background-color: #ff98005c;
+    color: #FF9800;
+}
+.project_page .skills .react {
+    background-color: #3f51b561;
+    color: #3F51B5;
+}
+.project_page .skills .node {
+    color: green;
+    background-color: #00800059;
+}

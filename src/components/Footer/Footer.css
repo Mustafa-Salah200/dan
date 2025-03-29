@@ -1,0 +1,42 @@
+footer {
+  background-color: var(--bg-color);
+  padding: 70px 0;
+}
+footer .footer {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer ul h2 {
+  margin-bottom: 20px;
+}
+.footer ul:last-child {
+  align-items: center;
+}
+.footer ul h2 img {
+  width: 9rem;
+}
+.footer ul:last-child img {
+  width: 25px;
+  margin: 5px 0;
+}
+
+.footer .follow {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer .follow img {
+  cursor: pointer;
+}

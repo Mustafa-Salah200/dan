@@ -1,0 +1,132 @@
+.blogs {
+    margin: 50px auto ;
+    max-width: var(--max-width);
+    padding: 20px;
+}
+.blogs h1 img {
+    width: 100px;
+}
+.blogs .blogs_box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 20px;
+}
+.blogs .blog .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    color: #777;
+}
+.blogs .blogs_box .blog img {
+    width: 100%;
+    border-radius: 10px;
+}
+.blogs .blog .info{
+    padding: 15px 0;
+}
+.blogs .info h3 {
+    color: #7777;
+    font-weight: normal;
+}
+.blogs .info h1 {
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+.blogs .info span {
+    
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.blogs .info span img {
+    width: 30px !important;
+    transition: 0.3s;
+}
+.blogs .info span:hover img{
+    margin-left: 20px;
+}
+.blogs .btn {
+    text-align: center;
+    margin-top: 2rem;
+}
+.blogs .btn button {
+    padding: 1.3rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-color);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.blogs {
+    margin: 50px auto ;
+    max-width: var(--max-width);
+    padding: 20px;
+}
+.blogs h1 img {
+    width: 100px;
+}
+.blogs .blogs_box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 20px;
+}
+.blogs .blog .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    color: #777;
+}
+.blogs .blogs_box .blog img {
+    width: 100%;
+    border-radius: 10px;
+}
+.blogs .blog .info{
+    padding: 15px 0;
+}
+.blogs .info h3 {
+    color: #7777;
+    font-weight: normal;
+}
+.blogs .info h1 {
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+.blogs .info span {
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.blogs .info span img {
+    width: 30px !important;
+    transition: 0.3s;
+}
+.blogs .info span:hover img{
+    margin-left: 20px;
+}
+.blogs .btn {
+    text-align: center;
+    margin-top: 2rem;
+}
+.blogs .btn button {
+    padding: 1.3rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-color);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

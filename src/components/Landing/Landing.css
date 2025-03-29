@@ -1,0 +1,82 @@
+.landing-container {
+  padding-bottom: 30px;
+}
+.landing {
+  position: relative;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 130px 20px;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  background-color: #000000c4;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.landing .bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background-image: url("./../../assets/about/new/bg6.jpg");
+  z-index: -1;
+}
+
+.landing .border p {
+  position: absolute;
+  width: 183px;
+  height: 96px;
+  background-color: #1c272e29;
+  border-radius: 20px 0 30px 0;
+  outline: 12px solid #fff;
+}
+.landing .border .one {
+  left: 0;
+  top: 0;
+}
+.landing .border .two {
+  right: 0;
+  bottom: 0;
+}
+.landing .left {
+  max-width: 800px;
+}
+.landing .left h1 {
+  font-size: 30px;
+  font-family: "Abel", sans-serif;
+}
+.landing .left h1 span {
+  color: var(--main-color);
+  font-weight: normal;
+}
+.landing .left p {
+  margin: 20px 0;
+}
+.landing .btn {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+.landing .btn button {
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+}
+.landing .btn .btn1 {
+  background-color: var(--main-color);
+}
+
+@media (min-width: 768px) {
+  .landing .left h1 {
+    font-size: 58px;
+  }
+}
+@media (min-width: 900px) {
+  .landing .left h1 {
+    font-size: 50px;
+  }
+}
