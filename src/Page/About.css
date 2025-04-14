@@ -1,9 +1,14 @@
 .about {
-  max-width: var(--max-width);
-  margin: auto;
+  /* max-width: var(--max-width);
+  margin: auto; */
   padding: 10px 30px;
 }
+.about .top_container {
+  background-color: var(--bg-color);
+  padding: 3rem 0;
+}
 .about .top {
+  color: #eee;
   position: relative;
   display: flex;
   justify-content: center;
@@ -31,7 +36,7 @@
   width: 300px;
   height: 300px;
   overflow: hidden;
-  box-shadow: 8px 7px 3px 0px #673ab763;
+  box-shadow: 8px 7px 3px 0px #84828763;
   border-radius: 100px 0 100px 0;
 }
 .about .top .left img {
@@ -44,11 +49,40 @@
   margin-top: 20px;
 }
 .about .options {
-  margin: 40px 0;
+  max-width: var(--max-width);
+  margin: 40px auto;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   align-items: center;
+}
+.about .content {
+  max-width: var(--max-width);
+  margin: auto;
+}
+.about .teacher {
+  
+}
+.about .teacher .image{
+  max-width: 350px;
+}
+.about .teacher .image img{
+  width: 100%;
+}
+.about  h1.teacher-title {
+  margin: 3rem 0;
+}
+.about .teacher .info h1 {
+  margin: 2rem 0;
+}
+.about .teacher h4 {
+  margin: 1rem 0 !important;
+}
+.about .teacher  h1:nth-child(3) {
+  margin: 3rem 0;
+}
+.about .teacher .second {
+  margin-top: 3rem;
 }
 .about .content h3 {
   margin: 20px 0 10px;
@@ -80,23 +114,23 @@
 }
 .about .option2 .images_container {
     background-color: var(--bg-color);
+    color: #eee;
     padding: 3rem 1rem;
 }
 .about .option2 .box1 img,
 .about .option2 .box2 img {
   width: 200px;
   border-radius: 6px;
+  border: 1px solid #eee;
 }
-.about .option2 .box2 img {
-  /* height: 400px; */
-}
+
 .about .option3 .course {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 30px;
 }
 .about .option3 .course div {
-  background-color: var(--bg-color);
+  background-color: #eee;
   padding: 10px;
   border-radius: 5px;
 }
@@ -188,7 +222,7 @@
 }
 .about .course_data div {
     cursor: pointer;
-    background-color: var(--bg-color);
+    background-color: #eee;
     padding: 10px;
     border-radius: 5px;
 }
@@ -208,6 +242,20 @@
     border: 1px solid #ddd;
     border-radius: 6px;
 
+}
+.about .student_content1 button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 0.6rem;
+  border: 2px solid transparent;
+  background-color: #20af0e;
+  font-weight: bold;
+  color: #fff;
+}
+.about .student_content1 button:hover {
+  border: 2px solid #fff;
+  outline: 1px solid #20af0e;
 }
 @media (max-width: 400px) {
   .about .option2 .box1 img {

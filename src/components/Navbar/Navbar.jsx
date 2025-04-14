@@ -8,13 +8,15 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <nav>
+      
       <div className="navbar">
         <div className="logo">
           <h1 onClick={() => navigate("/")}>
             <img src={logo} alt="" />
-            أكاديمية دان البريطانية للعلوم والتكنولوجيا{" "}
+            أكاديمية دان البريطانية للعلوم والتكنولوجيا
           </h1>
         </div>
+        
         <ul className="links">
           <li onClick={() => navigate("/")}>الرئسية</li>
           <li onClick={() => navigate("/about")}>نبذة عنا</li>

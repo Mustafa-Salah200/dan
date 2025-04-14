@@ -1,6 +1,8 @@
 .services_content_container  {
     background-color: var(--bg-color);
     padding: 15px;
+    color: #eee;
+
 }
 .services .top {
   text-align: center;
@@ -36,20 +38,26 @@
 .services .content div {
     padding: 40px 20px;
 }
-.services .content button {
+.services .content  a {
+    display: inline-block;
     padding: 1rem 1.5rem;
     background-color: var(--main-color);
     border-radius: 0.5rem;
     border: 3px solid transparent;
     font-weight: bold;
+    color: #000;
+    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }
+
 .services .content button:hover {
     outline: 3px solid var(--main-color);
     border-color: #fff;
 }
 .services .content .service {
-    background-color: #fff;
+    background-color: var(--bg-secondary-color);
     border-radius: 30px;
 }
 .services .content .service h1{

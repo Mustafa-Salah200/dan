@@ -1,6 +1,7 @@
 footer {
   background-color: var(--bg-color);
   padding: 70px 0;
+  color: #eee;
 }
 footer .footer {
   max-width: var(--max-width);
@@ -16,6 +17,13 @@ footer ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  li {
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  li:hover{
+    transform: translateX(10px);
+  }
 }
 .footer ul h2 {
   margin-bottom: 20px;
@@ -39,4 +47,9 @@ footer ul {
 
 .footer .follow img {
   cursor: pointer;
+}
+.footer p a {
+  text-decoration: none;
+  margin: 0 0.5rem ;
+  color: #eee;
 }

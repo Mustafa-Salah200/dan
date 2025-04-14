@@ -13,6 +13,8 @@ import p9 from "../assets/about/p9.jpeg";
 import p10 from "../assets/about/p10.jpeg";
 import p11 from "../assets/about/p11.jpeg";
 import p12 from "../assets/about/p12.jpeg";
+import t1 from "../components/Teachers/images/t-1.jpeg";
+import t2 from "../components/Teachers/images/t-2.jpeg";
 import "./About.css";
 
 const About = () => {
@@ -24,6 +26,8 @@ const About = () => {
   };
   return (
     <div className="about">
+      <div className="top_container">
+
       <div className="top">
         <span></span>
         <div className="right">
@@ -32,7 +36,7 @@ const About = () => {
             إن العلم رفيع غيور لا يناله إلا صاحب همة عالية تعال إلينا بهمة عالية
             وغيرة دفاقة سنركبك الخيل ونلزمك الصبر ونعطيك لجام الفرس فأنت فارس
             ميدايين العلم باسم اكاديمية دان البريطانية. أسسنا هذا الصرح لأجل
-            تعليم أبناء الشعوب وتأسيس شباب ناجح وبناءه بناء صحيحيا يليق برؤية
+            تعليم أبناء الشعوب وتأسيس شباب ناجح وبناءه بناء صحيحا يليق برؤية
             العصر.
           </p>
         </div>
@@ -40,6 +44,8 @@ const About = () => {
           <img src={man} alt="" />
         </div>
       </div>
+      </div>
+
       <h1 className="options">
         اكتشف المزيد
         <section>
@@ -88,20 +94,20 @@ const Option1 = () => {
     <div className="option3">
       <h3>
         🔷 أكاديمية دان البريطانية للعلوم والتكنولوجيا هي مؤسسة ذات اعتبار
-        قانوني في دولة بريطانية لها سجل تجاري خاص معترف به لدى بريطانيا مصرح
+        قانوني في دولة بريطانيا لها سجل تجاري خاص معترف به لدى بريطانيا مصرح
         للمؤسسة ممارسة مجال التعليم العالي والتدريب المهني أونلاين علما بأن لها
         حرما جامعيا في دولة رواندا يفتتح قريبا إن شاء الله .
       </h3>
       <h3>🔷نظام الدراسة :</h3>
       <p>
         تعتمد الجامعة نظام الكورسات والساعات كما أنها تمنح درجة البكالوريوس
-        المهني في ثلاث أو اربع على حسب التخصص وتمنح درجة الدبلوم والماجستير
+        المهني في ثلاث أو اربع سنوات على حسب التخصص وتمنح درجة الدبلوم والماجستير
         والدكتوراه في سنة واحدة فقط .
       </p>
 
       <h3>التدريب</h3>
       <p>
-        تهتم المؤسسة بمجال التدريب اهتماما كبيرة ولديها كلية تهتم بهذا الشأن وهي
+        تهتم المؤسسة بمجال التدريب اهتماما كبيرا ولديها كلية تهتم بهذا الشأن وهي
         كلية التنمية البشرية والتدريب تقدم هذه الكلية كافة الأنشطة التدريبة
         والمهنية بدورات قصيرة وطويلة كما أن المؤسسة تعتمد مراكز التدريب بمختلف
         جنسياتها وتستخرج لهم رخصة قانونية بريطانية إذا استوفت معايير دان
@@ -115,6 +121,69 @@ const Option1 = () => {
         يصادق على جميع الشهادات الصادرة من أكاديمية دان البريطانية من سفارة بلد
         الطالب في دولة بريطانيا ومن مزودو خدمات التعليم البريطاني والابوستيل.
       </p>
+      <h1 className="teacher-title ">مدربينا المميزين</h1>
+      <div className="teacher">
+        <div className="image">
+          <img src={t1} alt="" />
+        </div>
+        <h1>د: نيلسون مويسيغي
+        </h1>
+        <h4>مدير أكاديمية دان البريطانية للعلوم والتكنولوجيا 
+        </h4>
+        <div className="info">
+          <p>
+          على مر السنين كرّس نفسه لصقل مهاراته الإدارية في مجال التعليم وإدارة المنظمات غير الحكومية. ينبع نهجه  القيادي من التزامه الراسخ بالتميز والابتكار والشمولية، مما قدم مساهمات قيّمة في كلا القطاعين.
+          </p>
+          <p>
+          يؤمن السيد  نيلسون  بأن الإدارة الفعّالة تتجاوز مجرد إدارة الموارد، بل تتعلق بتهيئة بيئة يزدهر فيها الطلاب والمعلمون على حد سواء. أسلوبه في  القيادة تعاوني ومركّز على الإنسان، مما يضمن شعور جميع أصحاب المصلحة، بمن فيهم المعلمون والطلاب وأولياء الأمور والمجتمع، بالتقدير والتمكين. لقد نجحتد في تطبيق أنظمة تُعطي الأولوية للتميز الأكاديمي مع تعزيز التنمية الشاملة. من خلال الاستفادة من الاستراتيجيات القائمة على البيانات وتعزيز ثقافة التحسين المستمر، تمكنت من الارتقاء بالمعايير المؤسسية وخلق بيئات تعليمية فعّالة وملهمة.
+          </p>
+          <p>
+          في قطاع المنظمات غير الحكومية، لعبت مهاراته الإدارية دورًا محوريًا في قيادة برامج مؤثرة تُعالج قضايا اجتماعية حرجة.
+          </p>
+          <p>
+          كادر أكاديمي  يفخر بشراكاته القوية ، وتعبئة الموارد، وضمان استدامة كل مبادرة ومواءمتها مع احتياجات المجتمعات التي حوله .
+          </p>
+          <p>
+          كما أن الشفافية والمساءلة والشمولية هي ركائز نهجه
+          </p>
+      <h1>كلمة مدير الأكاديمية عن نفسه
+      </h1>
+      <p>
+      ما يحفزني هو شغفي الحقيقي 
+   بإحداث فرق. سواء كنتُ أُرشد المهنيين الشباب، أو أدعو لتغييرات في السياسات، أو أُقود مشاريع واسعة النطاق، فإنني أسترشد بالتزامي بالقيادة الأخلاقية ورغبتي في تمكين الآخرين. أؤمن بأن النجاح الحقيقي يكمن في القدرة على إلهام من حولك ورفع معنوياتهم، ولطالما سعيتُ إلى أن أكون قدوة حسنة، مُظهرًا المرونة والتعاطف، وسعيًا دؤوبًا نحو التميز. باختصار، تميزت مسيرتي الإدارية في التعليم وإدارة المنظمات غير الحكومية بالتفاني في إحداث تغيير هادف ودائم. أنا فخور بالعمل الذي أنجزته، وما زلت ملتزمًا بتوظيف مهاراتي وخبراتي لمواصلة إحداث تأثير إيجابي في العالم. هدفي هو ترك إرث من التغيير والتمكين والأمل، وإلهام الآخرين لتحقيق أقصى إمكاناتهم والمساهمة في مستقبل أفضل للجميع.
+
+      </p>
+        </div>
+        
+      </div>
+      <div className="teacher">
+        <div className="image second">
+          <img src={t2} alt="" />
+        </div>
+        <h1>موريس إس لانجاما،
+        </h1>
+       <h4>
+       جمهورية ليبيريا، غرب أفريقيا.
+
+       </h4>
+        <div className="info">
+          <h4>اللغة : الإنجليزية 
+          </h4>
+          <p>
+          المؤهلات الأكاديمية: ماجستير في التربية، ماجستير في العلوم البيئية وإدارة الموارد الطبيعية من رواندا، دبلوم في الكتابة اللغوية والإدارة العامة من جمهورية غانا، بكالوريوس في الاقتصاد واللغة الإنجليزية من جامعة ليبيريا، بالإضافة إلى العديد من الشهادات المهنية في اللغة الإنجليزية، وكتابة مقترحات المنح، والعنف القائم على النوع الاجتماعي، والمخاطر والتخفيف منها، وعلوم الشرطة الأساسية، وغيرها.
+          </p>
+          <h4>أعمال شغلها :
+          </h4>
+          <p>
+          محاضرًا في جامعة ليبيريا، وكلية التربية في ليكوس، والأكاديمية الوطنية لتدريب الشرطة، وكلية التمريض في فودا.
+          </p>
+          <p>
+
+والآن يعمل في أكاديمية دان البريطانية للعلوم والتكنولوجيا في كلية الاقتصاد والعلوم السياسية
+          </p>
+        </div>
+        
+      </div>
     </div>
   );
 };
@@ -132,8 +201,6 @@ const Option2 = () => {
       </h3>
       <div className="box1">
         <img src={p1} alt="" />
-        <img src={p2} alt="" />
-        {/* <img src={p3} alt="" /> */}
         <img src={p4} alt="" />
         <img src={p5} alt="" />
       </div>
@@ -556,14 +623,18 @@ const Option7 = () => {
       <div>
         <h3>1/ العميد</h3>
         <p>
-          وهو رأس العمادة والناطق الرسمي بها مخول لها إدارة كافة الأنشطة
-          الأكاديمية والمهنية المقدمة باسم الأكاديمية. هو الشخص الذي يقوم باجازة
+          وهو رأس العمادة والناطق الرسمي بها مخول له إدارة كافة الأنشطة
+          الأكاديمية والمهنية المقدمة باسم الأكاديمية.
+          <br />
+           هو الشخص الذي يقوم باجازة
           المناهج الدراسية والخطط السنوية للاعوام الدراسية هو الشخص الذي يقوم
-          باجازة النتائج السنوية ومنح تصريح إعلانها عبر المواقع الرئيسية. هو
+          باجازة النتائج السنوية ومنح تصريح إعلانها عبر المواقع الرئيسية.
+          <br />
+           هو
           الذي يقوم بعقد الاجتماعات السنوية فيما يتعلق بالعام الدراسي وخطة
-          إنجاحه وعقدت اجتماعات طارئة اكاديمية ومهنية ان دعت الضرورة. هو الشخص
+          إنجاحه وعقدت اجتماعات طارئة اكاديمية ومهنية ان دعت الضرورة.   <br /> هو الشخص
           الذي يقوم بمراجعة المقترحات العلمية والمهنية التي تعمل على تطوير
-          المؤسسة ومعالجتها و مناقشته مع الجهات المختصة. هو المراقب الدقيق
+          المؤسسة ومعالجتها و مناقشته مع الجهات المختصة.   <br /> هو المراقب الدقيق
           للأنشطة المقامة في المؤسسة عبر كَوادرها العلمية والمهنية كما له الحق
           بمعاقبة كل عميد تهاون في ابطال خطته الدراسية وعمل بلا مصداقية وكفاءة
           علمية. له الصلاحية في رفع المقترحات والملاحظات لمدير الجامعات فيما
@@ -581,8 +652,8 @@ const Option7 = () => {
 
         <p>3/ منسق المجلس الأكاديمي</p>
         <p>
-          هو الشيخ الذي ينسق مهام العمادة ويرامجمها وينسق بنود الاجتماعات
-          والمخرجات والتوصيات كمان يسنق الاجازات والخطط ويحرر الوثائق الرسمية
+          هو الشيخ الذي ينسق مهام العمادة ويرامجها وينسق بنود الاجتماعات
+          والمخرجات والتوصيات كما انه يسنق الانجازات السنوية والخطط ويحرر الوثائق الرسمية
           الصادرة من الجهات التي هي أعلى منه في الكلية.
         </p>
 
@@ -636,7 +707,7 @@ const Option7 = () => {
           شهادة دبلوم أو دبلوم مهني أو شهادة مؤهل .
         </li>
       </ul>
-      <h3>شروط الالتحاق ببرنامج الدكتورة المهنية</h3>
+      <h3>شروط الالتحاق ببرنامج الدكتوارة المهنية</h3>
       <ul>
         <li>1/ إثبات هوية وطنية من بلد الطالب</li>
         <li>2/ شهادة ثانوية</li>
@@ -656,9 +727,14 @@ const Option7 = () => {
         إدارتها لأكاديمية دان البريطانية للعلوم والتكنولوجيا وهي التي تنفذ فيها
         الكورسات العملية والاختبارات السنوية
       </p>
+      <h3>المراكز المعتمدة:</h3>
+
+      <p>
+      مركز رواندا العاصمة كيجالي
+      <br />مركز السودان امدرمان
+      </p>
       <h3>
-        تم اعتماد مركزين حتى الآن كما ذكرت سابقا والآن في دراسة مقترح للمراكز
-        التالية
+      المراكز قيد الدراسة
       </h3>
       <p>
         دولة أوغندا العاصمة كمبالا <br />
@@ -844,29 +920,74 @@ const Option8 = () => {
   );
 };
 const Student_Content1 = () => {
+  const [result, setResult] = useState("");
+  const array = [];
+
+  const AddToArray = (e) => {
+    if (e.target.localName == "div") {
+      let value = e.target.innerText;
+      value = value.split("\n")[0];
+
+      if (!array.includes(value)) {
+        if (array.length < 3) {
+          e.target.className = "active";
+          array.push(value);
+        }
+      } else {
+        console.log("remove");
+        e.target.classList.remove("active");
+        array.splice(array.indexOf(value), 1);
+      }
+    }
+  };
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append('بيانات التخصص ', array);
+
+
+    formData.append("access_key", "151941e4-4d82-48b8-8cd1-a19d7f15c948");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <div className="student_content1">
       <h1>استمارة البكالوريوس</h1>
-      <form action="">
+      <form onSubmit={onSubmit}>
         <div className="input_name">
           <label htmlFor="">الاسم رباعي : </label>
           <div className="data">
             {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="name" required/>
           </div>
         </div>
         <div className="input_name">
           <label htmlFor="">الاسم الوالد رباعي : </label>
           <div className="data">
             {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="father_name" required />
           </div>
         </div>
         <div className="input_name">
           <label htmlFor="">الاسم الوالدة رباعي : </label>
           <div className="data">
             {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="mother_name" required/>
           </div>
         </div>
         <div className="input_doc">
@@ -886,16 +1007,16 @@ const Student_Content1 = () => {
         <h3>البيانات العلمية</h3>
         <div className="input_select">
           <label htmlFor="">المساق</label>
-          <select name="" id="">
-            <option value="">ادبي</option>
-            <option value="">علمي</option>
+          <select name="المساق" id="" required>
+            <option value="ادبي">ادبي</option>
+            <option value="علمي">علمي</option>
           </select>
         </div>
         <div className="input_select">
           <label htmlFor="">درجة التأهيل</label>
-          <select name="" id="">
-            <option value="">58 إلى 60</option>
-            <option value="">60 إلى 100</option>
+          <select name="درجة التأهيل" id="" required>
+            <option value="58 إلى 60">58 إلى 60</option>
+            <option value="60 إلى 100">60 إلى 100</option>
           </select>
         </div>
         <h3>بيانات الشرف والسلوك </h3>
@@ -906,26 +1027,27 @@ const Student_Content1 = () => {
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن قمت بالسرقة " id="" required value="Yes"/>
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن قمت بالسرقة " id="" required value="No"/>
             </p>
           </div>
         </div>
         <div className="input_select">
           <label htmlFor="">
-            هل سبق أن تشاجرت مع أحد الأشخاص وقمت بضربه ظلما ؟
+            هل سبق أن تشاجرت مع أحد
+             الأشخاص وقمت بضربه ظلما ؟
           </label>
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن تشاجرت مع أحد" id="" required value="Yes"/>
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن تشاجرت مع أحد" id="" required value="No"/>
             </p>
           </div>
         </div>
@@ -938,132 +1060,161 @@ const Student_Content1 = () => {
           <input
             type="text"
             placeholder="اسم الجهة المانحة لشهادة السير والسلوك "
+            name="اسم الجهة المانحة لشهادة السير والسلوك "
+            required
           />
-          <input type="text" placeholder="رقم هاتف الواتس " />
-          <input type="text" placeholder="رقم هاتف الاتصال " />
-          <input type="text" placeholder="رابط صفحة الفيس " />
-          <input type="text" placeholder="البريد الالكتروني" />
+
+          <input type="text" 
+          placeholder="رقم هاتف الواتس " 
+          name="رقم هاتف الواتس " 
+          required
+          />
+          <input type="text" 
+          placeholder="رقم هاتف الاتصال " 
+          name="رقم هاتف الاتصال " 
+          required
+          />
+          <input type="text" 
+          placeholder="رابط صفحة الفيس " 
+          name="رابط صفحة الفيس " 
+          required
+          />
+          <input type="text" 
+          placeholder="البريد الالكتروني" 
+          name="البريد الالكتروني" 
+          required
+          />
         </div>
-        <h3>بيانات التخصص </h3>
+        <h3>
+          بيانات التخصص 
+
+        </h3>
         <div className="course_data">
-          <div>فقه العبادات رقم الكود dan 0012</div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
+            
+            فقه العبادات رقم الكود 
+            <p>
+
+            dan 0012
+            </p>
+            </div>
+          <div onClick={(e) => AddToArray(e)}>
             السيرة النبوية
             <p>رقم الكود dan0013</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             علوم القرآن
             <p>رقم الكود dan 0014</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             علوم الحديث
             <p>رقم الكود 0015</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             القانون
             <p>رقم الكود 0016</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             هندسة برمجيات
             <p>رقم الكود 0017</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             هندسة شبكات
             <p>رقم الكود 0018</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             نظم معلومات
             <p>رقم الكود 0019</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             الأمن السبراني
             <p>رقم الكود 0020</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             الذكاء الاصطناعي
             <p>رقم الكود 0021</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             البرمجة اللغوية العصبية
             <p>رقم الكود 0022</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             التنمية البشرية
             <p>رقم الكود 0023</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             الموارد البشرية
             <p>رقم الكود 0024</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             المحاسبة
             <p>رقم الكود 0025</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             إدارة الأعمال
             <p>رقم الكود 0026</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             الاقتصاد والعلوم السياسية
             <p>رقم الكود 0027</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             بنوك ومصارف
             <p>رقم الكود 0028</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             تأمين
             <p>رقم الكود 0029</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             تمريض
             <p>رقم الكود 0030</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             الصيدلة
             <p>رقم الكود 0031</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             هندسة ميكانيكية
             <p>رقم الكود 0032</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             كهرباء عامة
             <p>رقم الكود 0033</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             تبريد وتكييف
             <p>رقم الكود 0034</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             كهرباء سيارات
             <p>رقم الكود 0035</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             علوم كيمياء
             <p>رقم الكود 0036</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             علوم فيزياء
             <p>رقم الكود 0037</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             تربية عامة
             <p>رقم الكود 0038</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             اللغة العربية
             <p>رقم الكود 0039</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             رياض أطفال
             <p>رقم الكود 0040</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             تربية بدنية
             <p>رقم الكود 0041</p>
           </div>
-          <div>
+          <div onClick={(e) => AddToArray(e)}>
             علم النفس
             <p>رقم الكود 0042</p>
           </div>
@@ -1073,11 +1224,31 @@ const Student_Content1 = () => {
           <input type="file" />
         </div>
         <div className="more_info">
-          <input type="text" placeholder="اكتب رقم التأهيل " />
-          <input type="text" placeholder="اسم الجهة المانحة لشهادة المؤهل " />
-          <input type="text" placeholder="رقم الهاتف " />
-          <input type="text" placeholder="البريد الالكتروني " />
-          <input type="text" placeholder="رابط الصفحة الرسمية للمؤسسة" />
+          <input type="text" 
+          placeholder="اكتب رقم التأهيل " 
+          name="اكتب رقم التأهيل " 
+          required
+          />
+          <input type="text" 
+          placeholder="اسم الجهة المانحة لشهادة المؤهل " 
+          name="اسم الجهة المانحة لشهادة المؤهل " 
+          required
+          />
+          <input type="text" 
+          placeholder="رقم الهاتف " 
+          name="رقم الهاتف " 
+          required
+          />
+          <input type="text" 
+          placeholder="البريد الالكتروني " 
+          name="البريد الالكتروني " 
+          required
+          />
+          <input type="text" 
+          placeholder="رابط الصفحة الرسمية للمؤسسة" 
+          name="رابط الصفحة الرسمية للمؤسسة" 
+          required
+          />
         </div>
 
         <h3>امتيازات القبول</h3>
@@ -1095,12 +1266,30 @@ const Student_Content1 = () => {
         </div>
         <p>بيانات تواصل الجهة المانحة لشهادة التطوع </p>
         <div className="more_info">
-          <input type="text" placeholder="اسم الجهة المانحة " />
-          <input type="text" placeholder="رقم الهاتف " />
-          <input type="text" placeholder="البريد الالكتروني " />
-          <input type="text" placeholder="رابط الصفحة الرسمية " />
+          <input type="text" 
+          placeholder="اسم الجهة المانحة " 
+          name="اسم الجهة المانحة " 
+          required
+          />
+          <input type="text" 
+          placeholder="رقم الهاتف "
+          name="رقم الهاتف "
+          required
+           />
+          <input type="text" 
+          placeholder="البريد الالكتروني " 
+          name="البريد الالكتروني " 
+          required
+          />
+          <input type="text" 
+          placeholder="رابط الصفحة الرسمية " 
+          name="رابط الصفحة الرسمية " 
+          required
+          />
         </div>
+        <button type="submit">Submit</button>
       </form>
+      <p>{result}</p>
     </div>
   );
 };
@@ -1180,50 +1369,82 @@ const Student_Content2 = () => {
 };
 
 const Student_Content3 = () => {
+  const [result, setResult] = useState("");
   const [bank, setBank] = useState("");
+  const [itemValue, setItemValue] = useState("");
   const array = [];
-
+  
   const AddToArray = (e) => {
-    if (e.target.localName == "div") {
-      let value = e.target.innerText;
-      value = value.split("\n")[0];
+      if (e.target.localName == "div") {
+        let value = e.target.innerText;
+        value = value.split("\n")[0];
+        if(itemValue !== ""){
 
-      if (!array.includes(value)) {
-        if (array.length < 1) {
+          if(itemValue === value){
+            e.target.classList.remove("active");
+            setItemValue("")
+          }
+
+        } else {
+          setItemValue(value)
           e.target.className = "active";
-          array.push(value);
         }
-      } else {
-        console.log("remove");
-        e.target.classList.remove("active");
-        array.splice(array.indexOf(value), 1);
+
       }
+    };
+
+  
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append('بيانات التخصص ', itemValue);
+
+
+    formData.append("access_key", "151941e4-4d82-48b8-8cd1-a19d7f15c948");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
     }
   };
 
   return (
     <div className="student_content1">
       <h1>استمارة الماجستير</h1>
-      <form action="">
-        <div className="input_name">
-          <label htmlFor="">الاسم رباعي : </label>
+      <form onSubmit={onSubmit}>
+      <div className="input_name">
+          <label htmlFor="">
+            الاسم رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="الاسم رباعي : " required />
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالد رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالد رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالد رباعي : " required/>
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالدة رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالدة رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالدة رباعي : " required/>
           </div>
         </div>
         <div className="input_doc">
@@ -1244,16 +1465,20 @@ const Student_Content3 = () => {
         <div className="input_select">
           <label htmlFor="">
             *هل أنت حاصل على درجة البكالوريوس في التخصص الذي ترغب أن تنال فيه
-            درجة الماجستير ؟{" "}
+            درجة الماجستير ؟
           </label>
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="
+            *هل أنت حاصل على درجة البكالوريوس في التخصص الذي ترغب أن تنال فيه
+            درجة الماجستير ؟" id="" value="Yes" required />
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="
+            *هل أنت حاصل على درجة البكالوريوس في التخصص الذي ترغب أن تنال فيه
+            درجة الماجستير ؟" id="" value="No" required />
             </p>
           </div>
         </div>
@@ -1395,32 +1620,43 @@ const Student_Content3 = () => {
             <p>رقم الكود 0042</p>
           </div>
         </div>
-
-        <h3>ما هي طريقة الدفع :</h3>
+        <h3>
+          ما هي طريقة الدفع 
+          :</h3>
         <div className="pay">
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="1"
+              required
               onClick={() => setBank("1")}
+              value="سداد بنكي "
             />
-            <label htmlFor="1">سداد بنكي ( بنك دولي )</label>
+            <label htmlFor="1">
+              سداد بنكي 
+              ( بنك دولي )</label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="2"
+              required
               onClick={() => setBank("2")}
+              value="وسترن يونيون"
             />
-            <label htmlFor="2">وسترن يونيون</label>
+            <label htmlFor="2">
+              وسترن يونيون
+              </label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="3"
+              value="أخرى"
+              required
               onClick={() => setBank("3")}
             />
             <label htmlFor="3">أخرى </label>
@@ -1428,9 +1664,16 @@ const Student_Content3 = () => {
         </div>
         <div className="send">
           {bank == "1" ? (
-            <input type="text" placeholder="اكتب الرقم المتسلسل في الايصال" />
+            <input type="text" 
+            placeholder="اكتب الرقم المتسلسل في الايصال" 
+            name="الرقم المتسلسل في الايصال" 
+            
+            />
           ) : bank == "2" ? (
-            <input type="text" placeholder="اكتب رقم التحويل الدولي" />
+            <input type="text" 
+            placeholder="اكتب رقم التحويل الدولي" 
+            name="رقم التحويل الدولي" 
+            />
           ) : (
             <p>
               تواصل معنا عبر البريد الإلكتروني للبحث عن خيارات أخرى
@@ -1439,55 +1682,91 @@ const Student_Content3 = () => {
             </p>
           )}
         </div>
+      <button type="submit">Submit</button>
+      
       </form>
+      <p>{result}</p>
     </div>
   );
 };
 const Student_Content4 = () => {
+  const [result, setResult] = useState("");
   const [bank, setBank] = useState("");
+  const [itemValue, setItemValue] = useState("");
   const array = [];
+  
+    const AddToArray = (e) => {
+      if (e.target.localName == "div") {
+        let value = e.target.innerText;
+        value = value.split("\n")[0];
+        if(itemValue !== ""){
 
-  const AddToArray = (e) => {
-    if (e.target.localName == "div") {
-      let value = e.target.innerText;
-      value = value.split("\n")[0];
+          if(itemValue === value){
+            e.target.classList.remove("active");
+            setItemValue("")
+          }
 
-      if (!array.includes(value)) {
-        if (array.length < 1) {
+        } else {
+          setItemValue(value)
           e.target.className = "active";
-          array.push(value);
         }
-      } else {
-        console.log("remove");
-        e.target.classList.remove("active");
-        array.splice(array.indexOf(value), 1);
+
       }
+    };
+
+  const onSubmit = async (event) => {
+    console.log(array)
+
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append('بيانات التخصص ', itemValue);
+
+
+    formData.append("access_key", "151941e4-4d82-48b8-8cd1-a19d7f15c948");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
     }
   };
 
   return (
     <div className="student_content1">
       <h1>استمارة الدكتوراة</h1>
-      <form action="">
+      <form onSubmit={onSubmit}>
         <div className="input_name">
-          <label htmlFor="">الاسم رباعي : </label>
+          <label htmlFor="">
+            الاسم رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="الاسم رباعي : " required />
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالد رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالد رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالد رباعي : " required/>
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالدة رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالدة رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالدة رباعي : " required/>
           </div>
         </div>
         <div className="input_doc">
@@ -1513,11 +1792,11 @@ const Student_Content4 = () => {
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="*هل أنت حاصل على درجة الماجستير في التخصص الذي ترغب أن تنال فيه درجةالدكتوراة ؟" id="" required value="Yes"/>
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="*هل أنت حاصل على درجة الماجستير في التخصص الذي ترغب أن تنال فيه درجةالدكتوراة ؟" id="" required value="No"/>
             </p>
           </div>
         </div>
@@ -1655,31 +1934,41 @@ const Student_Content4 = () => {
           </div>
         </div>
 
-        <h3>ما هي طريقة الدفع :</h3>
+        <h3>
+          ما هي طريقة الدفع
+           :</h3>
         <div className="pay">
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع"
               id="1"
               onClick={() => setBank("1")}
+              value="سداد بنكي "
+              required
             />
-            <label htmlFor="1">سداد بنكي ( بنك دولي )</label>
+            <label htmlFor="1">
+              سداد بنكي 
+              ( بنك دولي )</label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع"
               id="2"
+              value="وسترن يونيون"
               onClick={() => setBank("2")}
             />
-            <label htmlFor="2">وسترن يونيون</label>
+            <label htmlFor="2">
+              وسترن يونيون
+              </label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع"
               id="3"
+              value="أخرى"
               onClick={() => setBank("3")}
             />
             <label htmlFor="3">أخرى </label>
@@ -1687,9 +1976,15 @@ const Student_Content4 = () => {
         </div>
         <div className="send">
           {bank == "1" ? (
-            <input type="text" placeholder="اكتب الرقم المتسلسل في الايصال" />
+            <input type="text"
+             placeholder="اكتب الرقم المتسلسل في الايصال" 
+             name=" الرقم المتسلسل في الايصال" 
+            />
           ) : bank == "2" ? (
-            <input type="text" placeholder="اكتب رقم التحويل الدولي" />
+            <input type="text" 
+            placeholder="اكتب رقم التحويل الدولي" 
+            name=" رقم التحويل الدولي" 
+            />
           ) : (
             <p>
               تواصل معنا عبر البريد الإلكتروني للبحث عن خيارات أخرى
@@ -1698,55 +1993,91 @@ const Student_Content4 = () => {
             </p>
           )}
         </div>
+        <button type="submit">Submit</button>
+      
       </form>
+      <p>{result}</p>
     </div>
   );
 };
 const Student_Content5 = () => {
+  const [result, setResult] = useState("");
   const [bank, setBank] = useState("");
-  const array = [];
+  const [array,setArray] = useState([]);
 
   const AddToArray = (e) => {
     if (e.target.localName == "div") {
       let value = e.target.innerText;
       value = value.split("\n")[0];
+      console.log(array.length);
 
       if (!array.includes(value)) {
         if (array.length < 3) {
           e.target.className = "active";
-          array.push(value);
+          setArray([...array,value])
+
         }
       } else {
         console.log("remove");
         e.target.classList.remove("active");
-        array.splice(array.indexOf(value), 1);
+        const newArray = array
+        newArray.splice(array.indexOf(value), 1);
+        setArray(newArray)
       }
     }
   };
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append('بيانات التخصص ', array);
+
+
+    formData.append("access_key", "151941e4-4d82-48b8-8cd1-a19d7f15c948");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
 
   return (
     <div className="student_content1">
       <h1>استمارة الدكتوراة الفخرية</h1>
-      <form action="">
-        <div className="input_name">
-          <label htmlFor="">الاسم رباعي : </label>
+      <form onSubmit={onSubmit}>
+      <div className="input_name">
+          <label htmlFor="">
+            الاسم رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="الاسم رباعي : " required />
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالد رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالد رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالد رباعي : " required/>
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالدة رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالدة رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالدة رباعي : " required/>
           </div>
         </div>
         <div className="input_doc">
@@ -1769,57 +2100,69 @@ const Student_Content5 = () => {
         </div>
         <h3>بيانات الشرف والسلوك</h3>
         <div className="input_select">
-          <label htmlFor="">هل سبق أن تشاجرت شجار عنيف مخل بالاخلاق ؟</label>
+          <label htmlFor="">
+            هل سبق أن تشاجرت شجار عنيف مخل بالاخلاق ؟
+
+          </label>
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن تشاجرت شجار عنيف مخل بالاخلاق ؟" id="" required value="Yes"/>
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن تشاجرت شجار عنيف مخل بالاخلاق ؟" id="" required value="No"/>
             </p>
           </div>
         </div>
         <div className="input_select">
-          <label htmlFor="">هل انت واثق من الإجابة وصادق مع نفسك</label>
+          <label htmlFor="">
+            هل انت واثق من الإجابة وصادق مع نفسك
+
+          </label>
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل انت واثق من الإجابة وصادق مع نفسك" id="" required value="Yes" />
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل انت واثق من الإجابة وصادق مع نفسك" id="" required value="No" />
             </p>
           </div>
         </div>
         <div className="input_select">
           <label htmlFor="">
             هل انت سيء الاخلاق مع المجتمع ومستمر في سلوكياتك المخلة للوائح الشرف
-            ومتنافيه مع مقاصد العلم والمكانة المجتمعية ؟{" "}
+            ومتنافيه مع مقاصد العلم والمكانة المجتمعية ؟
           </label>
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="
+            هل انت سيء الاخلاق مع المجتمع ومستمر في سلوكياتك المخلة للوائح الشرف
+            ومتنافيه مع مقاصد العلم والمكانة المجتمعية ؟" id="" required value="Yes" />
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="
+            هل انت سيء الاخلاق مع المجتمع ومستمر في سلوكياتك المخلة للوائح الشرف
+            ومتنافيه مع مقاصد العلم والمكانة المجتمعية ؟" id="" required value="No" />
             </p>
           </div>
         </div>
         <div className="input_select">
-          <label htmlFor="">هل انت واثق من الإجابة وصادق مع نفسك</label>
+          <label htmlFor="">
+            هل انت واثق من الإجابة وصادق مع نفسك
+            </label>
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل انت واثق من الإجابة وصادق مع نفسك" id="" required value="Yes" />
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل انت واثق من الإجابة وصادق مع نفسك" id="" required value="No" />
             </p>
           </div>
         </div>
@@ -1831,11 +2174,14 @@ const Student_Content5 = () => {
           <input
             type="text"
             placeholder="اسم الجهة المانحة لشهادة السير والسلوك "
+            name="اسم الجهة المانحة لشهادة السير والسلوك "
+            required
           />
           <input
             type="text"
-            placeholder="بيانات التواصل للجهة المانحة للسير والسلوك
-"
+            placeholder="بيانات التواصل للجهة المانحة للسير والسلوك"
+            name="بيانات التواصل للجهة المانحة للسير والسلوك"
+            required
           />
         </div>
 
@@ -1849,10 +2195,14 @@ const Student_Content5 = () => {
           <input
             type="text"
             placeholder=" اسم الجهة أو الشخص"
+            name="1 اسم الجهة أو الشخص"
+           required 
           />
           <input
             type="text"
             placeholder=" خطاب التوصية أو التزكية"
+            name="1 خطاب التوصية أو التزكية"
+           required 
           />
         </div>
         <h3>التوصية الثانية 
@@ -1861,10 +2211,14 @@ const Student_Content5 = () => {
           <input
             type="text"
             placeholder=" اسم الجهة أو الشخص"
+            name="2 اسم الجهة أو الشخص"
+           required 
           />
           <input
             type="text"
             placeholder=" خطاب التوصية أو التزكية"
+            name="3 خطاب التوصية أو التزكية"
+           required 
           />
         </div>
         <h3>التوصية الثالثة 
@@ -1873,10 +2227,14 @@ const Student_Content5 = () => {
           <input
             type="text"
             placeholder=" اسم الجهة أو الشخص"
+            name="3 اسم الجهة أو الشخص"
+           required 
           />
           <input
             type="text"
             placeholder=" خطاب التوصية أو التزكية"
+            name="3 خطاب التوصية أو التزكية"
+           required 
           />
         </div>
 
@@ -2028,31 +2386,43 @@ const Student_Content5 = () => {
           <input type="file" />
         </div>
 
-        <h3>ما هي طريقة الدفع :</h3>
+        <h3>
+          ما هي طريقة الدفع 
+          :</h3>
         <div className="pay">
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="1"
+              required
               onClick={() => setBank("1")}
+              value="سداد بنكي "
             />
-            <label htmlFor="1">سداد بنكي ( بنك دولي )</label>
+            <label htmlFor="1">
+              سداد بنكي 
+              ( بنك دولي )</label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="2"
+              required
               onClick={() => setBank("2")}
+              value="وسترن يونيون"
             />
-            <label htmlFor="2">وسترن يونيون</label>
+            <label htmlFor="2">
+              وسترن يونيون
+              </label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="3"
+              value="أخرى"
+              required
               onClick={() => setBank("3")}
             />
             <label htmlFor="3">أخرى </label>
@@ -2060,9 +2430,16 @@ const Student_Content5 = () => {
         </div>
         <div className="send">
           {bank == "1" ? (
-            <input type="text" placeholder="اكتب الرقم المتسلسل في الايصال" />
+            <input type="text" 
+            placeholder="اكتب الرقم المتسلسل في الايصال" 
+            name="الرقم المتسلسل في الايصال" 
+            
+            />
           ) : bank == "2" ? (
-            <input type="text" placeholder="اكتب رقم التحويل الدولي" />
+            <input type="text" 
+            placeholder="اكتب رقم التحويل الدولي" 
+            name="رقم التحويل الدولي" 
+            />
           ) : (
             <p>
               تواصل معنا عبر البريد الإلكتروني للبحث عن خيارات أخرى
@@ -2071,14 +2448,17 @@ const Student_Content5 = () => {
             </p>
           )}
         </div>
+        <button type="submit">Submit</button>
       </form>
+      <p>{result}</p>
     </div>
   );
 };
 
 const Student_Content6 = () => {
+  const [result, setResult] = useState("");
   const [bank, setBank] = useState("");
-  const array = [];
+  const [array,setArray] = useState([]);
 
   const AddToArray = (e) => {
     if (e.target.localName == "div") {
@@ -2089,39 +2469,71 @@ const Student_Content6 = () => {
       if (!array.includes(value)) {
         if (array.length < 3) {
           e.target.className = "active";
-          array.push(value);
+          setArray([...array,value])
+
         }
       } else {
         console.log("remove");
         e.target.classList.remove("active");
-        array.splice(array.indexOf(value), 1);
+        const newArray = array
+        newArray.splice(array.indexOf(value), 1);
+        setArray(newArray)
       }
     }
   };
 
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append('بيانات التخصص ', array);
+
+
+    formData.append("access_key", "151941e4-4d82-48b8-8cd1-a19d7f15c948");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+
   return (
     <div className="student_content1">
       <h1>استمارة البكالوريوس</h1>
-      <form action="">
-        <div className="input_name">
-          <label htmlFor="">الاسم رباعي : </label>
+      <form onSubmit={onSubmit}>
+      <div className="input_name">
+          <label htmlFor="">
+            الاسم رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="الاسم رباعي : " required />
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالد رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالد رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالد رباعي : " required/>
           </div>
         </div>
         <div className="input_name">
-          <label htmlFor="">الاسم الوالدة رباعي : </label>
+          <label htmlFor="">
+            الاسم الوالدة رباعي : 
+            </label>
           <div className="data">
-            {/* <input type="text" placeholder="عربي" /> */}
-            <input type="text" placeholder="انجليزي" />
+            <input type="text" placeholder="انجليزي" name="            الاسم الوالدة رباعي : " required/>
           </div>
         </div>
         <div className="input_doc">
@@ -2136,16 +2548,19 @@ const Student_Content6 = () => {
         <h3>البيانات العلمية</h3>
         <div className="input_select">
           <label htmlFor="">المساق</label>
-          <select name="" id="">
-            <option value="">ادبي</option>
-            <option value="">علمي</option>
+          <select name="المساق" id="">
+            <option value="ادبي">ادبي</option>
+            <option value="علمي">علمي</option>
           </select>
         </div>
         <div className="input_select">
-          <label htmlFor="">درجة التأهيل</label>
-          <select name="" id="">
-            <option value="">58 إلى 60</option>
-            <option value="">60 إلى 100</option>
+          <label htmlFor="">
+            درجة التأهيل
+
+          </label>
+          <select name="درجة التأهيل" id="">
+            <option value="58 إلى 60">58 إلى 60</option>
+            <option value="60 إلى 100">60 إلى 100</option>
           </select>
         </div>
         <div className="input_doc">
@@ -2167,11 +2582,11 @@ const Student_Content6 = () => {
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن قمت بالسرقة أو تسببت في أذية المجتمع بلسانك؟" id="" required value="Yes" />
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن قمت بالسرقة أو تسببت في أذية المجتمع بلسانك؟" id="" required value="No" />
             </p>
           </div>
         </div>
@@ -2182,11 +2597,11 @@ const Student_Content6 = () => {
           <div>
             <p>
               نعم
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن تشاجرت مع أحد الأشخاص وقمت بضربه ظلما ؟" id="" required value="Yes"/>
             </p>
             <p>
               لا
-              <input type="checkbox" name="" id="" />
+              <input type="radio" name="هل سبق أن تشاجرت مع أحد الأشخاص وقمت بضربه ظلما ؟" id="" required value="No"/>
             </p>
           </div>
         </div>
@@ -2199,11 +2614,29 @@ const Student_Content6 = () => {
           <input
             type="text"
             placeholder="اسم الجهة المانحة لشهادة السير والسلوك "
+            name="اسم الجهة المانحة لشهادة السير والسلوك "
+            required
           />
-          <input type="text" placeholder="رقم هاتف الواتس " />
-          <input type="text" placeholder="رقم هاتف الاتصال " />
-          <input type="text" placeholder="رابط صفحة الفيس " />
-          <input type="text" placeholder="البريد الالكتروني" />
+          <input type="text" 
+          placeholder="رقم هاتف الواتس " 
+          name="رقم هاتف الواتس " 
+          required
+          />
+          <input type="text" 
+          placeholder="رقم هاتف الاتصال " 
+          name="رقم هاتف الاتصال " 
+          required
+          />
+          <input type="text" 
+          placeholder="رابط صفحة الفيس " 
+          name="رابط صفحة الفيس " 
+          required
+          />
+          <input type="text" 
+          placeholder="البريد الالكتروني" 
+          name="البريد الالكتروني" 
+          required
+          />
         </div>
         <h3> اختر اقرب ثلاثة تخصصات لرغبتك من القائمة المنجدلة</h3>
         <div className="course_data">
@@ -2332,32 +2765,43 @@ const Student_Content6 = () => {
             <p>رقم الكود 0042</p>
           </div>
         </div>
-
-        <h3>ما هي طريقة الدفع :</h3>
+        <h3>
+          ما هي طريقة الدفع 
+          :</h3>
         <div className="pay">
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="1"
+              required
               onClick={() => setBank("1")}
+              value="سداد بنكي "
             />
-            <label htmlFor="1">سداد بنكي ( بنك دولي )</label>
+            <label htmlFor="1">
+              سداد بنكي 
+              ( بنك دولي )</label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="2"
+              required
               onClick={() => setBank("2")}
+              value="وسترن يونيون"
             />
-            <label htmlFor="2">وسترن يونيون</label>
+            <label htmlFor="2">
+              وسترن يونيون
+              </label>
           </div>
           <div>
             <input
               type="radio"
-              name="bank"
+              name="ما هي طريقة الدفع "
               id="3"
+              value="أخرى"
+              required
               onClick={() => setBank("3")}
             />
             <label htmlFor="3">أخرى </label>
@@ -2365,9 +2809,16 @@ const Student_Content6 = () => {
         </div>
         <div className="send">
           {bank == "1" ? (
-            <input type="text" placeholder="اكتب الرقم المتسلسل في الايصال" />
+            <input type="text" 
+            placeholder="اكتب الرقم المتسلسل في الايصال" 
+            name="الرقم المتسلسل في الايصال" 
+            
+            />
           ) : bank == "2" ? (
-            <input type="text" placeholder="اكتب رقم التحويل الدولي" />
+            <input type="text" 
+            placeholder="اكتب رقم التحويل الدولي" 
+            name="رقم التحويل الدولي" 
+            />
           ) : (
             <p>
               تواصل معنا عبر البريد الإلكتروني للبحث عن خيارات أخرى
@@ -2376,7 +2827,9 @@ const Student_Content6 = () => {
             </p>
           )}
         </div>
+        <button type="submit">Submit</button>
       </form>
+      <p>{result}</p>
     </div>
   );
 };

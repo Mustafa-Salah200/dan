@@ -4,7 +4,8 @@
 }
 /* assets/fonts/TitilliumWeb-Bold.ttf */
 :root {
-  --bg-color: #f6f6f6;
+  --bg-color: #123;
+  --bg-secondary-color: #ffffff12;
   --main-color: #2196f3;
   --secondary-color: blue;
   --main-font: roboto-condensed;

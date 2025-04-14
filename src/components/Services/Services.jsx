@@ -4,23 +4,25 @@ import facebook from "../../assets/facebook.svg";
 import ibm from "../../assets/ibm.svg";
 import slack from "../../assets/slack.svg";
 import google from "../../assets/google.svg";
-import design from "../../assets/design.svg"; 
-import google_ads from "../../assets/google-ads.svg"; 
-import code from "../../assets/code.svg"; 
-import code_pull from "../../assets/code-pull.svg"; 
-import projects_icon from "../../assets/projects.svg"; 
-
 
 
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
   const services = [
-    "Google Ads",
-    "Front-End",
-    "Back-End",
-    "Design",
-    "Project Management",
+    {
+      title: "شهادات معتمدة",
+      content: "نحن نقدم كورسات معتمدة تمنحك شهادة اعتماد تثبت إتقانك واجتيازك للبرنامج التدريبي. هذه الشهادات تعتبر إضافة قيمة لملفك الشخصي وتعزز فرصك الوظيفية والمهنية. نحن نضمن أن جميع الشهادات التي نمنحها تلبي المعايير العالمية وتحظى بالاعتراف والتقدير من قبل أصحاب العمل والمؤسسات."
+    },
+    {
+      title: "مدربين محترفين",
+      content: "نعتمد على فريق من المدربين المحترفين وذوي الخبرة في مجالاتهم. يتمتع مدربونا بمهارات تدريسية ممتازة وقدرة فائقة على توصيل المعلومات بشكل فعال وملهم. سيقوم المدربون بتوجيهك خلال الكورس وتقديم الدعم والمشورة لضمان تحقيق أقصى استفادة من تجربتك التعليمية."
+    },
+    {
+      title: "كورسات متخصصة",
+      content: "نحن نقدم مجموعة واسعة من الكورسات المتخصصة في شتى المجالات. سواء كنت ترغب في تعلم مهارات تقنية مثل التطوير البرمجي، أو مهارات إدارة الأعمال مثل التسويق والإدارة المالية، أو حتى مهارات الاتصال والتواصل الفعال، فإن لدينا الكورس المناسب لك. نحن نهدف إلى تلبية احتياجاتك الفردية وتوفير المعرفة والمهارات التي تحتاجها للنجاح في مجالك."
+    }
   ];
   return (
     <section className="services">
@@ -39,23 +41,25 @@ const Services = () => {
       <div className="services_content_container">
         <div className="content">
           <div className="">
-            <h1 className="title">افضل الخدمات</h1>
+            <h1 className="title"> ما الذي يمكننا تقديمه</h1>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              eum quos, optio, ullam magnam quasi modi ipsa laboriosam hic
-              dolorum ratione ipsum id
+              سنظهر لك مقدراتك الخفية
+
             </p>
-            <motion.button
-            whileHover={{scaleX: 1.1}}
-            >Let&apos;s Talk</motion.button>
+
+            <motion.a href="mailto:danacademy20@gmail.com"
+              whileHover={{ scaleX: 1.1 }}
+
+            >
+              تواصل معنا
+            </motion.a>
+
           </div>
 
-          <Service service={services[0]} image={google_ads} />
-          <Service service={services[1]} image={code} />
-          <Service service={services[2]} image={code_pull} />
-          <Service service={services[3]} image={design} />
-          <Service service={services[4]} image={projects_icon} />
-          
+          <Service service={services[0]} />
+          <Service service={services[1]} />
+          <Service service={services[2]} />
+
         </div>
       </div>
     </section>
@@ -64,22 +68,21 @@ const Services = () => {
 
 export default Services;
 
-const Service = ({ service, image }) => {
+const Service = ({ service }) => {
+  const navigate = useNavigate()
   return (
     <motion.div
-    whileHover={{rotate: -5,scale: 1.1}}
-    transition={{ duration: 0.3,stiffness: 100, damping: 8}}
+      whileHover={{ rotate: -5, scale: 1.1 }}
+      transition={{ duration: 0.3, stiffness: 100, damping: 8 }}
       className="service"
     >
       <h1>
-        <img src={image} alt="" />
-        {service}
+        {service.title}
       </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex veniam
-        amet culpa reprehenderit sit reiciendis porro cum iusto at.
+        {service.content}
       </p>
-      <span>Read more</span>
+      <span onClick={() => navigate("/about")}>اعرف المزيد عنا</span>
     </motion.div>
   );
 };
